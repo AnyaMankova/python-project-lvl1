@@ -1,13 +1,12 @@
 # !/usr/bin/env python3
 """Main game."""
 from brain_games.games.brain_even import brain_even
-
-# import brain_games.logic
+from brain_games.logic import greeting
 
 
 def main():
     """Play the game."""
-    # print(logic.greeting())
+    greeting()
     brain_even()
 
 
