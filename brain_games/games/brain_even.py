@@ -1,15 +1,13 @@
 """Game file."""
 
 import prompt
-
 import random
+#from brain_games.logic import name
 
 
 def brain_even():
     """Game function."""
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ').capitalize()
-    print(f'Hello, {name}')
+    
     print('Answer "yes" if the number is even, otherwise answer "no".')
     for _ in range(3):
         rand_num = random.randint(1, 100)
@@ -22,7 +20,7 @@ def brain_even():
         else:
             print("'yes' is wrong answer ;(. Correct answer was 'no'.")
     else:
-        print(f'Congratulations, {name}!')
+        print(f'Congratulations!') #{.name}
 
 
 def is_even(num):
