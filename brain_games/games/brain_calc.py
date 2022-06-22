@@ -6,9 +6,6 @@ import prompt
 
 def brain_calc():
     """Game function."""
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ').capitalize()
-    print(f'Hello, {name}')
     print('What is the result of the expression?')
     for _ in range(3):
         rand_num1 = random.randint(1, 100)
@@ -23,7 +20,7 @@ def brain_calc():
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
     else:
-        print(f'Congratulations, {name}!')
+        print(f'Congratulations!') #добавить имя
 
 
 def math_expression(rand_num1, rand_num2, rand_operator):
