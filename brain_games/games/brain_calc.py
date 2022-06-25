@@ -1,7 +1,6 @@
 """File with a game."""
 
 import random
-import prompt
 
 
 def brain_calc():
@@ -20,12 +19,15 @@ def brain_calc():
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
     else:
-        print(f'Congratulations!') #добавить имя
+        print('Congratulations!')
 
 
 def math_expression(rand_num1, rand_num2, rand_operator):
-    """Calculate expression.
-    rand_num1, rand_num2 are random numbers, rand_operator is to calculate expression."""
+    """
+    Calculate expression.
+
+    rand_num1, rand_num2 are random numbers, rand_operator is to calculate expression.
+    """
     if rand_operator == '+':
         return rand_num1 + rand_num2
     elif rand_operator == '*':

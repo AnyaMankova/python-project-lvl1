@@ -1,13 +1,10 @@
 """Game file."""
 
-import prompt
 import random
-#from brain_games.logic import name
 
 
 def brain_even():
     """Game function."""
-    
     print('Answer "yes" if the number is even, otherwise answer "no".')
     for _ in range(3):
         rand_num = random.randint(1, 100)
@@ -20,11 +17,11 @@ def brain_even():
         else:
             print("'yes' is wrong answer ;(. Correct answer was 'no'.")
     else:
-        print(f'Congratulations!') #{.name}
+        print('Congratulations!')
 
 
 def is_even(num):
-    """Check if number is even."""
+    """Check if 'num' is even. Returns True or False."""
     if num % 2 == 0:
         return True
 
