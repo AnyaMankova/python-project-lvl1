@@ -1,11 +1,3 @@
 .venv
 *.pyc
 *.gz
-*.whl
-brain_games/__pycache__/logic.cpython-38.pyc
-dist/hexlet_code-0.1.0-py3-none-any.whl
-brain_games/scripts/__pycache__/brain_calc.cpython-38.pyc
-brain_games/scripts/__pycache__/brain_even.cpython-38.pyc
-dist/hexlet_code-0.1.0-py3-none-any.whl
-brain_games/games/__pycache__/brain_even.cpython-38.pyc
-brain_games/games/__pycache__/brain_calc.cpython-38.pyc
