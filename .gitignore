@@ -2,3 +2,5 @@
 *.pyc
 *.gz
 *.whl
+brain_games/__pycache__/logic.cpython-38.pyc
+dist/hexlet_code-0.1.0-py3-none-any.whl
