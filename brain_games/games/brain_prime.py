@@ -1,36 +1,20 @@
 """File with a game."""
 
-import random
+from random import randint
+
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+START = 1
+STOP = 100
+DIV_START = 2
 
 
-def brain_prime():
+def game_options():
     """Game function."""
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    for _ in range(3):
-        rand_num = random.randint(1, 100)
-        print(f'Question: {rand_num}')
-        answer = input('Your answer: ')
-        correct = is_prime(rand_num)
-        if correct == answer:
-            print('Correct!')
-        else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
-    else:
-        print('Congratulations!')
-
-
-def is_prime(rand_num):
-    """Is number prime or not."""
-    count = 0
-    for i in range(2, rand_num):
-        if rand_num % i == 0:
-            count += 1
-            correct = 'no'
+    task = randint(START, STOP)
+    for i in range(DIV_START, task):
+        if task % i == 0:
+            correct_answ = 'no'
             break
     else:
-        correct = 'yes'
-    return correct
-
-
-if __name__ == '__main__':
-    brain_prime()
+        correct_answ = 'yes'
+    return task, correct_answ

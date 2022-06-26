@@ -1,30 +1,17 @@
 """Game file."""
 
 import random
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+START = 1
+STOP = 100
 
 
-def brain_even():
+def game_options():
     """Game function."""
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    for _ in range(3):
-        rand_num = random.randint(1, 100)
-        print(f'Question: {rand_num}')
-        answer = input('Your answer: ')
-        if is_even(rand_num) and answer == 'yes':
-            print('Correct!')
-        elif not is_even(rand_num) and answer == 'no':
-            print('Correct!')
-        else:
-            print("'yes' is wrong answer ;(. Correct answer was 'no'.")
+    rand_num = random.randint(START, STOP)
+    task = rand_num
+    if rand_num % 2 == 0:
+        correct_answ = 'yes'
     else:
-        print('Congratulations!')
-
-
-def is_even(num):
-    """Check if 'num' is even. Returns True or False."""
-    if num % 2 == 0:
-        return True
-
-
-if __name__ == '__main__':
-    brain_even()
+        correct_answ = 'no'
+    return task, correct_answ

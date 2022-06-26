@@ -1,37 +1,23 @@
 """File with a game."""
 
 import random
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
+START = 1
+STOP = 100
+STEP = -1
 
 
-def brain_gcd():
+def game_options():
     """Game function."""
-    print('Find the greatest common divisor of given numbers.')
-    for _ in range(3):
-        rand_num1 = random.randint(1, 100)
-        rand_num2 = random.randint(1, 100)
-        print(f'Question: {rand_num1} {rand_num2}')
-        answer = int(input('Your answer: '))
-        correct = find_divisor(rand_num1, rand_num2)
-        if correct == answer:
-            print('Correct!')
-        else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
-    else:
-        print('Congratulations!')
-
-
-def find_divisor(rand_num1, rand_num2):
-    """Find the greatest common divisor."""
+    rand_num1 = random.randint(START, STOP)
+    rand_num2 = random.randint(START, STOP)
+    task = f'{rand_num1} {rand_num2}'
     if rand_num1 > rand_num2:
-        for i in range(rand_num2, 0, -1):
-            if rand_num1 % i == 0 and rand_num2 % i == 0:
-                return i
-
+        for div in range(rand_num2, 0, STEP):
+            if rand_num1 % div == 0 and rand_num2 % div == 0:
+                correct_answ = div
     else:
-        for i in range(rand_num1, 0, -1):
-            if rand_num2 % i == 0 and rand_num1 % i == 0:
-                return i
-
-
-if __name__ == '__main__':
-    brain_gcd()
+        for div in range(rand_num1, 0, STEP):
+            if rand_num2 % div == 0 and rand_num1 % div == 0:
+                correct_answ = div
+    return task, str(correct_answ)
