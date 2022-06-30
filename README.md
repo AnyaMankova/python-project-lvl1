@@ -9,3 +9,7 @@ Description:
 Brain-games contains five different games: Even number, The biggest common divisor, Calculator, Progression, Prime number.
 Every game starts with greeting and asks user's name.
 Than game asks questions. If there are thre correct answers, the game congratulate user. If there is a mistake, the game offers to play again.
+
+Demonstration.
+Brain-even:
+/tmp/tmp0rgg9yaf-ascii.cast
