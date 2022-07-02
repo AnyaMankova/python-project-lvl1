@@ -20,6 +20,7 @@ Brain-even:
 Brain-gcd:
 
 Brain-prime:
+<a href="https://asciinema.org/a/p3B2kzg4eIGDjEQhhK5lmE6s8" target="_blank"><img src="https://asciinema.org/a/p3B2kzg4eIGDjEQhhK5lmE6s8.svg" /></a>
 
 Brain-progression:
 
