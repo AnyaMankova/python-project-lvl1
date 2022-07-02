@@ -16,8 +16,10 @@ def game_options():
         for div in range(rand_num2, 0, STEP):
             if rand_num1 % div == 0 and rand_num2 % div == 0:
                 correct_answ = div
+                break
     else:
         for div in range(rand_num1, 0, STEP):
             if rand_num2 % div == 0 and rand_num1 % div == 0:
                 correct_answ = div
+                break
     return task, str(correct_answ)
