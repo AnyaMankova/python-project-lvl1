@@ -24,6 +24,7 @@ Brain-prime:
 <a href="https://asciinema.org/a/p3B2kzg4eIGDjEQhhK5lmE6s8" target="_blank"><img src="https://asciinema.org/a/p3B2kzg4eIGDjEQhhK5lmE6s8.svg" /></a>
 
 Brain-progression:
+<a href="https://asciinema.org/a/deHuHAFiU7c4r5srGDuX8Nh7h" target="_blank"><img src="https://asciinema.org/a/deHuHAFiU7c4r5srGDuX8Nh7h.svg" /></a>
 
 Brain-calc:
 <a href="https://asciinema.org/a/mpUtTGlRZWnZ7kH5omX1t2FPD" target="_blank"><img src="https://asciinema.org/a/mpUtTGlRZWnZ7kH5omX1t2FPD.svg" /></a>
