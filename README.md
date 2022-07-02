@@ -18,6 +18,7 @@ Brain-even:
 <a href="https://asciinema.org/a/nfl90EpfKUHFOXhGhhfNKFC96" target="_blank"><img src="https://asciinema.org/a/nfl90EpfKUHFOXhGhhfNKFC96.svg" /></a>
 
 Brain-gcd:
+<a href="https://asciinema.org/a/0uFp1A7xFc2Hm63HyYFOfUEaC" target="_blank"><img src="https://asciinema.org/a/0uFp1A7xFc2Hm63HyYFOfUEaC.svg" /></a>
 
 Brain-prime:
 <a href="https://asciinema.org/a/p3B2kzg4eIGDjEQhhK5lmE6s8" target="_blank"><img src="https://asciinema.org/a/p3B2kzg4eIGDjEQhhK5lmE6s8.svg" /></a>
