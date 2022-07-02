@@ -24,4 +24,4 @@ def game_options():
             lst_prog.append(prog_start)
         prog_start += prog_step
     task = lst_prog
-    return task, str(correct_answ)
+    return (*task), str(correct_answ)
