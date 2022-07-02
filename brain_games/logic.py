@@ -10,7 +10,7 @@ TASK = 'Question: {}'
 ANSWER = 'Your answer: '
 CORRECT = 'Correct!'
 WRONG = "'{}' is wrong answer ;(.\nCorrect answer was '{}'.\nLet's try again, {}!"
-WIN_MSG = 'Congratulations, {}'
+WIN_MSG = 'Congratulations, {}!'
 
 
 def logic(game):
