@@ -15,4 +15,12 @@ Install:
 <a href="https://asciinema.org/a/BqoPAYoKLw5Zn8mBdtvHVM2xo" target="_blank"><img src="https://asciinema.org/a/BqoPAYoKLw5Zn8mBdtvHVM2xo.svg" /></a>
 
 Brain-even:
-/tmp/tmp0rgg9yaf-ascii.cast
+<a href="https://asciinema.org/a/nfl90EpfKUHFOXhGhhfNKFC96" target="_blank"><img src="https://asciinema.org/a/nfl90EpfKUHFOXhGhhfNKFC96.svg" /></a>
+
+Brain-gcd:
+
+Brain-prime:
+
+Brain-progression:
+
+Brain-calc:
