@@ -24,3 +24,4 @@ Brain-prime:
 Brain-progression:
 
 Brain-calc:
+<a href="https://asciinema.org/a/mpUtTGlRZWnZ7kH5omX1t2FPD" target="_blank"><img src="https://asciinema.org/a/mpUtTGlRZWnZ7kH5omX1t2FPD.svg" /></a>
