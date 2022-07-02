@@ -5,25 +5,26 @@
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
 
-Description:
+<h1>Description:</h1>
 Brain-games contains five different games: Even number, The biggest common divisor, Calculator, Progression, Prime number.
 Every game starts with greeting and asks user's name.
 Than game asks questions. If there are thre correct answers, the game congratulate user. If there is a mistake, the game offers to play again.
 
 Dependencies:
-Python = "^3.8"
-prompt = "^0.4.1"
+<li>Python = "^3.8"
+<li>prompt = "^0.4.1"
+  
 Installation:
-make install
-make build
-make package-install
+<li>make install
+<li>make build
+<li>make package-install
 
 To initiate game use commands as following:
-brain-even
-brain-gcd
-brain-prime
-brain-progression
-brain-calc
+<li>brain-even
+<li>brain-gcd
+<li>brain-prime
+<li>brain-progression
+<li>brain-calc
 
 Demonstration.
 Install:
