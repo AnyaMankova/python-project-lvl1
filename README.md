@@ -10,6 +10,21 @@ Brain-games contains five different games: Even number, The biggest common divis
 Every game starts with greeting and asks user's name.
 Than game asks questions. If there are thre correct answers, the game congratulate user. If there is a mistake, the game offers to play again.
 
+Dependencies:
+Python = "^3.8"
+prompt = "^0.4.1"
+Installation:
+make install
+make build
+make package-install
+
+To initiate game use commands as following:
+brain-even
+brain-gcd
+brain-prime
+brain-progression
+brain-calc
+
 Demonstration.
 Install:
 <a href="https://asciinema.org/a/BqoPAYoKLw5Zn8mBdtvHVM2xo" target="_blank"><img src="https://asciinema.org/a/BqoPAYoKLw5Zn8mBdtvHVM2xo.svg" /></a>
