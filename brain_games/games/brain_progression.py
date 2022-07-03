@@ -19,7 +19,7 @@ def game_options():
     for i in range(length):
         lst_prog.append(str(prog_start))
         prog_start += prog_step
-    correct_answ = lst_prog.pop(rand_ind)
-    lst_prog.insert(rand_ind, '..')
+    correct_answ = lst_prog[rand_ind]
     task = (' ').join(lst_prog)
+    task = task.replace(correct_answ, '..')
     return task, str(correct_answ)
