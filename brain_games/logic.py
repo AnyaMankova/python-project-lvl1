@@ -9,7 +9,8 @@ COUNT_OF_ROUNDS = 3
 TASK = 'Question: {}'
 ANSWER = 'Your answer: '
 CORRECT = 'Correct!'
-WRONG = "'{}' is wrong answer ;(.\nCorrect answer was '{}'.\nLet's try again, {}!"
+WRONG = "'{}' is wrong answer ;(. " "Correct answer was '{}'." \
+               "\nLet's try again, {}!"
 WIN_MSG = 'Congratulations, {}!'
 
 
