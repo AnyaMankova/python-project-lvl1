@@ -17,11 +17,9 @@ def game_options():
     rand_ind = random.randint(0, length)
     lst_prog, correct_answ, task = [], '', ''
     for i in range(length):
-        if i == rand_ind:
-            lst_prog.append('..')
-            correct_answ = lst_prog[i]
-        else:
-            lst_prog.append(str(prog_start))
+        lst_prog.append(str(prog_start))
         prog_start += prog_step
+    correct_answ = lst_prog.pop(rand_ind)
+    lst_prog.insert(rand_ind, '..')
     task = (' ').join(lst_prog)
     return task, str(correct_answ)
