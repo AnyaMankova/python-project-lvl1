@@ -10,7 +10,7 @@ TASK = 'Question: {}'
 ANSWER = 'Your answer: '
 CORRECT = 'Correct!'
 WRONG = "'{}' is wrong answer ;(. " "Correct answer was '{}'." \
-               "\nLet's try again, {}!"
+        "\nLet's try again, {}!"
 WIN_MSG = 'Congratulations, {}!'
 
 
