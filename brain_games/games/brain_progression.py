@@ -14,7 +14,7 @@ def game_options():
     prog_start = random.randint(START, STOP)
     prog_step = random.randint(START, MAX_STEP)
     length = random.randint(MIN_LEN, MAX_LEN)
-    rand_ind = random.randint(0, length + 1)
+    rand_ind = random.randint(0, length)
     lst_prog, correct_answ, task = [], '', ''
     for i in range(length):
         if i == rand_ind:
