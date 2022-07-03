@@ -16,7 +16,7 @@ def game_options():
     length = random.randint(MIN_LEN, MAX_LEN)
     rand_ind = random.randint(0, length)
     lst_prog, correct_answ, task = [], '', ''
-    for i in range(length):
+    for i in range(length + 1):
         lst_prog.append(str(prog_start))
         prog_start += prog_step
     correct_answ = lst_prog[rand_ind]
