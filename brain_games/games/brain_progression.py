@@ -19,7 +19,7 @@ def game_options():
     for i in range(length):
         if i == rand_ind:
             lst_prog.append('..')
-            correct_answ = str(prog_start)
+            correct_answ = lst_prog[i]
         else:
             lst_prog.append(str(prog_start))
         prog_start += prog_step
