@@ -26,12 +26,10 @@ To initiate game use commands as following:
 <li>brain-progression
 <li>brain-calc
 
-Demonstration.
-Install:
-<a href="https://asciinema.org/a/BqoPAYoKLw5Zn8mBdtvHVM2xo" target="_blank"><img src="https://asciinema.org/a/BqoPAYoKLw5Zn8mBdtvHVM2xo.svg" /></a>
+Description.
 
 Brain-even:
-<a href="\\wsl.localhost\Ubuntu\tmp" target="_blank"><img src="https://asciinema.org/a/nfl90EpfKUHFOXhGhhfNKFC96.svg" /></a>
+<a The game offers to user a random number. User has to answer 'yes' if the number is even and 'no' otherwise. /></a>
 
 Brain-gcd:
 <a href="https://asciinema.org/a/0uFp1A7xFc2Hm63HyYFOfUEaC" target="_blank"><img src="https://asciinema.org/a/0uFp1A7xFc2Hm63HyYFOfUEaC.svg" /></a>
