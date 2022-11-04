@@ -29,16 +29,16 @@ To initiate game use commands as following:
 Description.
 
 Brain-even:
-<a href="The game offers to user a random number. User has to answer 'yes' if the number is even and 'no' otherwise." /></a>
+The game offers to user a random number. User should answer 'yes' if the number is even and 'no' otherwise.
 
 Brain-gcd:
-<a href="The game offers to user a random number. User has to answer 'yes' if the number is even and 'no' otherwise." /></a>
+The game offers to user two random numbers. User should calculate the greatest common divisor .
 
 Brain-prime:
-<a href="https://asciinema.org/a/p3B2kzg4eIGDjEQhhK5lmE6s8" target="_blank"><img src="https://asciinema.org/a/p3B2kzg4eIGDjEQhhK5lmE6s8.svg" /></a>
+The game offers to user a random number. User should answer 'yes' if the number is prime and 'no' otherwise.
 
 Brain-progression:
-<a href="https://asciinema.org/a/deHuHAFiU7c4r5srGDuX8Nh7h" target="_blank"><img src="https://asciinema.org/a/deHuHAFiU7c4r5srGDuX8Nh7h.svg" /></a>
+The game offers to user row of numbers which is arithmetic progression, one of numbers replaced by '..'. The user should enter replaced number.
 
 Brain-calc:
-<a href="https://asciinema.org/a/mpUtTGlRZWnZ7kH5omX1t2FPD" target="_blank"><img src="https://asciinema.org/a/mpUtTGlRZWnZ7kH5omX1t2FPD.svg" /></a>
+The game offers to calculate some mathematics question. The user should enter the answer.
