@@ -29,10 +29,10 @@ To initiate game use commands as following:
 Description.
 
 Brain-even:
-The game offers to user a random number. User has to answer 'yes' if the number is even and 'no' otherwise.
+<a href="The game offers to user a random number. User has to answer 'yes' if the number is even and 'no' otherwise." /></a>
 
 Brain-gcd:
-<a href="https://asciinema.org/a/0uFp1A7xFc2Hm63HyYFOfUEaC" target="_blank"><img src="https://asciinema.org/a/0uFp1A7xFc2Hm63HyYFOfUEaC.svg" /></a>
+<a href="The game offers to user a random number. User has to answer 'yes' if the number is even and 'no' otherwise." /></a>
 
 Brain-prime:
 <a href="https://asciinema.org/a/p3B2kzg4eIGDjEQhhK5lmE6s8" target="_blank"><img src="https://asciinema.org/a/p3B2kzg4eIGDjEQhhK5lmE6s8.svg" /></a>
