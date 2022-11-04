@@ -31,7 +31,7 @@ Install:
 <a href="https://asciinema.org/a/BqoPAYoKLw5Zn8mBdtvHVM2xo" target="_blank"><img src="https://asciinema.org/a/BqoPAYoKLw5Zn8mBdtvHVM2xo.svg" /></a>
 
 Brain-even:
-<a href="https://asciinema.org/a/nfl90EpfKUHFOXhGhhfNKFC96" target="_blank"><img src="https://asciinema.org/a/nfl90EpfKUHFOXhGhhfNKFC96.svg" /></a>
+<a href="\\wsl.localhost\Ubuntu\tmp" target="_blank"><img src="https://asciinema.org/a/nfl90EpfKUHFOXhGhhfNKFC96.svg" /></a>
 
 Brain-gcd:
 <a href="https://asciinema.org/a/0uFp1A7xFc2Hm63HyYFOfUEaC" target="_blank"><img src="https://asciinema.org/a/0uFp1A7xFc2Hm63HyYFOfUEaC.svg" /></a>
